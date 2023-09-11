@@ -22,12 +22,8 @@ def main():
     product_result = product_of_list(numbers)
     reverse_result = reverse_list(numbers)
 
-<<<<<<< HEAD
-    print(f"Sum: {sum_result}, Product: {product_result}, Reverse: {reverse_result}")
-=======
     # print the results 
-    print(f"Sum: {sum_result}, Product: {product_result}")
->>>>>>> 5832fbd (added comments)
+    print(f"Sum: {sum_result}, Product: {product_result}, Reverse: {reverse_result}")
 
 if __name__ == "__main__":
     main()
