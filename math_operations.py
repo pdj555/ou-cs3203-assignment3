@@ -16,8 +16,9 @@ def main():
 
     sum_result = sum_of_list(numbers)
     product_result = product_of_list(numbers)
+    reverse_result = reverse_list(numbers)
 
-    print(f"Sum: {sum_result}, Product: {product_result}")
+    print(f"Sum: {sum_result}, Product: {product_result}, Reverse: {reverse_result}")
 
 if __name__ == "__main__":
     main()
