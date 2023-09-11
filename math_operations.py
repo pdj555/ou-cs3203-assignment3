@@ -7,6 +7,9 @@ def product_of_list(numbers):
         result *= num
     return result
 
+def reverse_list(numbers):
+    return numbers[::-1]
+
 def main():
     user_input = input("Enter a list of numbers separated by spaces: ")
     numbers = [int(num) for num in user_input.split()]
